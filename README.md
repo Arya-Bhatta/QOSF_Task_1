@@ -89,6 +89,7 @@ Operator is implementing (2|s><s|-I) for grover's algorithm.
 * But qubit-0 will always remain unentagled with the other address qubits as it is always 0 while acting as a control while data loading.
 * In accordance to Grover's, we should iterate sqrt(n/#marked) times. If #marked values is not known apriori, we can find it using the QPE(Quantum Phase Estimation) algorithm.
 * I have represented the final data and results in form of statevector of address register and its blochsphere.
+* **Also, got positive results for arbitrary value of N and marked states.**
 
 ### **Given any vector of length N and no.of marked states or states we want to search, this circuit finds an equal superposition of its indices.**
 
